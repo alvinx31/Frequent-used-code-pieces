@@ -19,3 +19,11 @@ git config [--global] user.email
 ```
 git remote set-url origin https://alvinx31:<password>@github.com/alvinx31/helloworld.git
 ```
+
+**Two most uesful git shortcut in .bash_profile**
+```
+# Git add and commit altogether.
+alias gcm='git commit -am'
+# Pretty and concise git versions history in graph format.
+alias glog='git log --oneline --graph --decorate'
+```
